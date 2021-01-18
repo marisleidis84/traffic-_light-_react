@@ -23,7 +23,7 @@ const TrafficLight = () => {
                 <div className='col-md-12'>
                     <div className='col2 bg-dark'>
                         <div className={red_selected}>
-                            <input className='input rounded-circle bg-danger' type='button' onClick={() => setColor(color = 'red')} />
+                            <input className='input rounded-circle bg-danger' type='button' onClick={() => setColor(color = 'red')}/>
                         </div>
                         <div className={yellow_selected}>
                             <input className='input rounded-circle bg-warning' type='button' onClick={() => setColor(color = 'yellow')} />

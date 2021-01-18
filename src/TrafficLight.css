@@ -1,26 +1,28 @@
-.row{
-    width: 100%;
-  }
+
   
   .col1{
-    width: 20px !important;
+    width: 20px;
     height: 150px;
     margin-left: 4.3em;
   }
   
   .col2{
-    width: 150px;
-    height: 380px;
+    width: 170px;
+    height: 420px;
     border-radius: 40px;
     padding: 5px;
   }
   
   .input{
-    width: 130px;
-    height: 115px;
-    margin-left: 6px;
+    width: 150px;
+    height: 130px;
+    margin-left: 3px;
+    border: 0px;
   }
 
 .selected{
-    box-shadow: #f8ffcc 0px 0px 50px 20px;
+    border: 0px;
+    border-radius: 90px;
+    background:rgb(182, 155, 155);
+    box-shadow: #b0b87f 0px 0px 50px 20px;
   }
