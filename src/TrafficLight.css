@@ -1,0 +1,28 @@
+.row{
+    width: 100%;
+  }
+  
+  .col1{
+    width: 20px !important;
+    height: 150px;
+    margin-left: 4em;
+  }
+  
+  .col2{
+    width: 150px;
+    height: 380px;
+    border-radius: 40px;
+    padding: 5px;
+  }
+  
+  .input{
+    z-index: 1;
+    width: 130px;
+    height: 115px;
+    margin-left: 6px;
+  }
+
+.selected{
+    z-index: -1;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+  }
