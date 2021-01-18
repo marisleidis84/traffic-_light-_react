@@ -5,7 +5,7 @@
   .col1{
     width: 20px !important;
     height: 150px;
-    margin-left: 4em;
+    margin-left: 4.3em;
   }
   
   .col2{
@@ -16,13 +16,11 @@
   }
   
   .input{
-    z-index: 1;
     width: 130px;
     height: 115px;
     margin-left: 6px;
   }
 
 .selected{
-    z-index: -1;
     box-shadow: #f8ffcc 0px 0px 50px 20px;
   }
