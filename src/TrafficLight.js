@@ -13,28 +13,30 @@ const TrafficLight = () => {
 
 
     return (
-        <>
+        <div className="container">
             <div className='row'>
                 <div className='col-md-12'>
                     <div className='col1 bg-dark'></div>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col-md-12'>
-                    <div className='col2 bg-dark'>
+
+
+            <div className="container"> 
+                <div className='row' style={{"width": "170px"}}>
+                    <div className='col-md-12 col2 bg-dark'>
                         <div className={red_selected}>
-                            <button className='myClass rounded-circle bg-danger' onClick={() => setColor(color = 'red')}/>
+                            <div className='myClass rounded-circle bg-danger' onClick={() => setColor(color = 'red')}></div>
                         </div>
                         <div className={yellow_selected}>
-                            <button className='myClass rounded-circle bg-warning' onClick={() => setColor(color = 'yellow')}/>
+                            <div className='myClass rounded-circle bg-warning' onClick={() => setColor(color = 'yellow')}></div>
                         </div>
                         <div className={green_selected}>
-                            <button className='myClass rounded-circle bg-success' onClick={() => setColor(color = 'green')}/>
+                            <div className='myClass rounded-circle bg-success' onClick={() => setColor(color = 'green')}></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
